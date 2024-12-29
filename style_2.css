@@ -1,0 +1,69 @@
+body
+{
+	background-color: beige;
+}
+
+h1
+{
+	font-family: verdana;
+	text-align: center;
+}
+
+h3
+{
+	font-family: helvetica;
+	text-align: center;
+}
+
+.navbar ul
+{
+	font-family: helvetica;
+	size: 20px;
+	list-style-type: none;
+	background-color: lightgray;
+	padding: 15px;
+	margin: 15px;
+}
+
+.navbar a
+{
+	color: darkmagenta;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+.navbar a:hover
+{
+	background-color: papayawhip;
+}
+
+.container
+{
+	display: flex;
+}
+
+.column-left
+{
+	flex: 3;
+	height: 500px;
+}
+
+.column-right
+{
+	flex: 1;
+	height: 500px;
+}
+
+table
+{
+	width: 100%;
+	font-family: arial;
+	size: 16px;
+	text-align: left;
+}
+
+th,td
+{
+	padding: 5px;
+}
